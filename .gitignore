@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.npm-cache/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Expo / React Native
+.expo/
+.expo-shared/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs & OS / editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
